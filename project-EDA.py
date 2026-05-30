@@ -130,7 +130,7 @@ with col_graph3:
             )
         plt.xlabel("Vision")
         plt.ylabel("Number of Characters")
-        plt.legend(title="Weapon Type",  loc='upper right', bbox_to_anchor=(1.05, 1.2))
+        plt.legend(title="Weapon Type",  loc='upper right', bbox_to_anchor=(1.05, 1.1))
         st.pyplot(fig2)
     else:
         st.warning("No weapon types found for the selected vision. Please adjust your filters.")
